@@ -1,0 +1,25 @@
+
+.card-container{
+  margin-top: 20px;
+  background-color: aqua;
+}
+.cart{
+  width: 230px;
+}
+
+.item-prize{
+  display: flex;
+  gap: 20px;
+}
+
+.card-new-price{
+  color: #2e74db;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-old-price{
+  color: #686767;
+  font-size: 18px;
+  font-weight: 600;
+}

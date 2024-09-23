@@ -1,0 +1,53 @@
+.productdisplay {
+  display: flex;
+  align-items: flex-start; /* Align items at the start */
+  padding: 20px; /* Add some padding */
+  margin-top: 50px;
+  border: 2px solid black;
+}
+
+.productdisplay-left {
+  display: flex;
+  flex-direction: column; /* Stack small images vertically */
+  margin-right: 20px; /* Space between left and right */
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column; /* Stack images vertically */
+  gap: 10px; /* Space between small images */
+}
+
+.productdisplay-img {
+  display: flex;
+  justify-content: center; /* Center the main image */
+}
+
+.productdisplay-img img {
+  width: 100%; /* Make the main image take the full width */
+  max-width: 300px; /* Set a max width for the main image */
+}
+
+.productdisplay-left img {
+  width: 70px; /* Set a fixed width for small images */
+  height: 70px; /* Set a fixed height for small images */
+  object-fit: cover; /* Ensure images cover the area */
+}
+
+.productdisplay-right {
+  flex: 1; /* Allow the right section to take remaining space */
+}
+
+.productdisplay-right h1 {
+  margin: 10px 0; /* Add margin above and below the title */
+}
+
+.productdisplay-right-star {
+  display: flex;
+  align-items: center; /* Center align the star icons */
+}
+
+.productdisplay-right-star img {
+  width: 20px; /* Set a width for star icons */
+  margin-right: 5px; /* Space between stars */
+}
