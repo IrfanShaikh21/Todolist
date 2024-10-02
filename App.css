@@ -1,0 +1,36 @@
+h1 {
+  font-weight: 700;
+  font-size: 111px;
+  margin: 100px;
+  padding-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+.irow {
+  margin: 10px 5px;
+  text-align: start;
+}
+
+button {
+  min-width: 80px;
+}
+
+/* .items{
+  margin-top: 20px;
+} */
+
+.Todo.container {
+  margin-top: 10px;
+  display: contents;
+  justify-content: center;
+}
+
+.Container {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
