@@ -1,53 +1,116 @@
 .productdisplay {
   display: flex;
-  align-items: flex-start; /* Align items at the start */
-  padding: 20px; /* Add some padding */
+  align-items: flex-start;
+  padding: 20px;
   margin-top: 50px;
   border: 2px solid black;
 }
 
 .productdisplay-left {
   display: flex;
-  flex-direction: column; /* Stack small images vertically */
-  margin-right: 20px; /* Space between left and right */
+  flex-direction: column;
+  margin-right: 20px;
 }
 
 .productdisplay-img-list {
   display: flex;
-  flex-direction: column; /* Stack images vertically */
-  gap: 10px; /* Space between small images */
+  flex-direction: column;
+  gap: 10px;
 }
 
 .productdisplay-img {
   display: flex;
-  justify-content: center; /* Center the main image */
+  justify-content: center;
 }
 
 .productdisplay-img img {
-  width: 100%; /* Make the main image take the full width */
-  max-width: 300px; /* Set a max width for the main image */
+  width: 100%;
+  max-width: 300px;
 }
 
 .productdisplay-left img {
-  width: 70px; /* Set a fixed width for small images */
-  height: 70px; /* Set a fixed height for small images */
-  object-fit: cover; /* Ensure images cover the area */
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
 }
 
 .productdisplay-right {
-  flex: 1; /* Allow the right section to take remaining space */
+  flex: 1;
+  margin-left: 30px;
 }
 
 .productdisplay-right h1 {
-  margin: 10px 0; /* Add margin above and below the title */
+  margin: 10px 0;
 }
 
 .productdisplay-right-star {
   display: flex;
-  align-items: center; /* Center align the star icons */
+  align-items: center;
 }
 
 .productdisplay-right-star img {
-  width: 20px; /* Set a width for star icons */
-  margin-right: 5px; /* Space between stars */
+  width: 20px;
+  margin-right: 5px;
+}
+
+.price {
+  display: flex;
+  gap: 40px;
+  margin: 10px 0;
+}
+
+.new {
+  color: #0056b3;
+}
+
+.old {
+  color: rgb(131, 131, 131);
+}
+
+.product-dis {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.cloth-size {
+  margin-top: 20px;
+}
+
+.product-size {
+  display: flex;
+  gap: 10px;
+}
+
+.product-size div {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-size div:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.new{
+  color: #007bff;
+}
+
+.old{
+  color: rgb(155, 155, 155);
 }
